@@ -15,7 +15,7 @@ import AdminComplaintView from './pages/AdminComplaintView'
 // Components
 import ProtectedRoute from './components/ProtectedRoute'
 import AdminRoute from './components/AdminRoute'
-import Layout from './components/Layout'
+import Layout from './components/layout'
 
 export default function App() {
   const { user, loading, isAdmin } = useAuth()
